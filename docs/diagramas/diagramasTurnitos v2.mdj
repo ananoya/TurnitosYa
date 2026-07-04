@@ -7507,7 +7507,7 @@
 											"top": 383,
 											"width": 51,
 											"height": 13,
-											"text": "inactivo"
+											"text": "Inactivo"
 										},
 										{
 											"_type": "LabelView",
@@ -7673,7 +7673,7 @@
 											"top": 399,
 											"width": 51,
 											"height": 13,
-											"text": "activo"
+											"text": "Activo"
 										},
 										{
 											"_type": "LabelView",
@@ -8048,7 +8048,7 @@
 											"top": 407,
 											"width": 61.67724609375,
 											"height": 13,
-											"text": "eliminado"
+											"text": "Eliminado"
 										},
 										{
 											"_type": "LabelView",
