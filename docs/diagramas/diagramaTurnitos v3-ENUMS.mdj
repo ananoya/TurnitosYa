@@ -43141,7 +43141,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 831,
-									"top": 1149,
+									"top": 1137,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -43177,7 +43177,7 @@
 									"font": "Arial;18;0",
 									"parentStyle": false,
 									"left": 1062,
-									"top": 1472,
+									"top": 1448,
 									"height": 18,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -43195,7 +43195,7 @@
 								"$ref": "AAAAAAGgEW4e6lRNvl0="
 							},
 							"lineStyle": 2,
-							"points": "1000:816;816:816;816:1496;1088:1496",
+							"points": "1000:816;816:816;816:1472;1088:1472",
 							"nameLabel": {
 								"$ref": "AAAAAAGgEW4e7FT+0tM="
 							},
@@ -43566,7 +43566,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": false,
 									"left": 1481,
-									"top": 1413,
+									"top": 1409,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -43602,7 +43602,7 @@
 									"font": "Arial;18;0",
 									"parentStyle": false,
 									"left": 1510,
-									"top": 1384,
+									"top": 1376,
 									"height": 18,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -43620,7 +43620,7 @@
 								"$ref": "AAAAAAGgEW4e6lQYegE="
 							},
 							"lineStyle": 2,
-							"points": "1371:1432;1496:1432;1496:1408;1536:1408",
+							"points": "1371:1432;1496:1432;1496:1400;1536:1400",
 							"nameLabel": {
 								"$ref": "AAAAAAGgEW4e7FUWrzM="
 							},
@@ -45781,6 +45781,7 @@
 								"$ref": "AAAAAAGgEW4e7VVlUeM="
 							},
 							"name": "id_preferencia_mp",
+							"type": "VARCHAR",
 							"length": 0
 						},
 						{
@@ -45790,6 +45791,7 @@
 								"$ref": "AAAAAAGgEW4e7VVlUeM="
 							},
 							"name": "id_pago_mp",
+							"type": "VARCHAR",
 							"length": 0
 						}
 					]
@@ -45997,6 +45999,7 @@
 								"$ref": "AAAAAAGgEW4e7VVz61Y="
 							},
 							"name": "activo",
+							"type": "BOOLEAN",
 							"length": 0
 						}
 					]
