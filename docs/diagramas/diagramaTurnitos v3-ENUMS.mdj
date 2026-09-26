@@ -44510,7 +44510,7 @@
 									"parentStyle": true,
 									"left": 1952,
 									"top": 1269,
-									"width": 266.1220703125,
+									"width": 374.7421875,
 									"height": 18,
 									"text": "Servicio_politica_cancelacion"
 								},
@@ -44538,7 +44538,7 @@
 											"parentStyle": true,
 											"left": 1957,
 											"top": 1297,
-											"width": 256.1220703125,
+											"width": 364.7421875,
 											"height": 18
 										},
 										{
@@ -44555,7 +44555,7 @@
 											"parentStyle": true,
 											"left": 1957,
 											"top": 1317,
-											"width": 256.1220703125,
+											"width": 364.7421875,
 											"height": 18
 										}
 									],
@@ -44564,7 +44564,7 @@
 									"parentStyle": true,
 									"left": 1952,
 									"top": 1292,
-									"width": 266.1220703125,
+									"width": 374.7421875,
 									"height": 48
 								}
 							],
@@ -44573,7 +44573,7 @@
 							"parentStyle": false,
 							"left": 1952,
 							"top": 1264,
-							"width": 266.1220703125,
+							"width": 374.7421875,
 							"height": 76,
 							"nameLabel": {
 								"$ref": "AAAAAAGgEZHRzFwP7/8="
@@ -44637,7 +44637,7 @@
 									},
 									"font": "Arial;18;0",
 									"parentStyle": false,
-									"left": 2243,
+									"left": 2352,
 									"top": 1325,
 									"height": 18,
 									"alpha": -0.5235987755982988,
@@ -44656,7 +44656,7 @@
 								"$ref": "AAAAAAGgEYZywVu4XhE="
 							},
 							"lineStyle": 2,
-							"points": "2749:1440;2800:1440;2800:1320;2218:1320",
+							"points": "2749:1440;2800:1440;2800:1320;2327:1320",
 							"nameLabel": {
 								"$ref": "AAAAAAGgEZ7iVlx2OSc="
 							},
@@ -44949,9 +44949,9 @@
 									"fillColor": "#F2E6FF",
 									"font": "Arial;18;1",
 									"parentStyle": true,
-									"left": 2264,
+									"left": 2352,
 									"top": 1197,
-									"width": 204.09765625,
+									"width": 312.7177734375,
 									"height": 18,
 									"text": "Servicio_politica_sena"
 								},
@@ -44977,9 +44977,9 @@
 											"fillColor": "#F2E6FF",
 											"font": "Arial;18;0",
 											"parentStyle": true,
-											"left": 2269,
+											"left": 2357,
 											"top": 1225,
-											"width": 194.09765625,
+											"width": 302.7177734375,
 											"height": 18
 										},
 										{
@@ -44994,27 +44994,27 @@
 											"fillColor": "#F2E6FF",
 											"font": "Arial;18;0",
 											"parentStyle": true,
-											"left": 2269,
+											"left": 2357,
 											"top": 1245,
-											"width": 194.09765625,
+											"width": 302.7177734375,
 											"height": 18
 										}
 									],
 									"fillColor": "#F2E6FF",
 									"font": "Arial;18;0",
 									"parentStyle": true,
-									"left": 2264,
+									"left": 2352,
 									"top": 1220,
-									"width": 204.09765625,
+									"width": 312.7177734375,
 									"height": 48
 								}
 							],
 							"fillColor": "#F2E6FF",
 							"font": "Arial;18;0",
 							"parentStyle": false,
-							"left": 2264,
+							"left": 2352,
 							"top": 1192,
-							"width": 204.09765625,
+							"width": 312.7177734375,
 							"height": 76,
 							"nameLabel": {
 								"$ref": "AAAAAAGgEeHD7F0o/Ww="
@@ -45078,7 +45078,7 @@
 									},
 									"font": "Arial;18;0",
 									"parentStyle": false,
-									"left": 2238,
+									"left": 2326,
 									"top": 1208,
 									"height": 18,
 									"alpha": -0.5235987755982988,
@@ -45097,7 +45097,7 @@
 								"$ref": "AAAAAAGgEW4e6lQ+J0Q="
 							},
 							"lineStyle": 2,
-							"points": "2191:1016;2224:1016;2224:1232;2264:1232",
+							"points": "2191:1016;2224:1016;2224:1232;2352:1232",
 							"nameLabel": {
 								"$ref": "AAAAAAGgEelFC11nwXg="
 							},
@@ -45163,7 +45163,7 @@
 									},
 									"font": "Arial;18;0",
 									"parentStyle": false,
-									"left": 2493,
+									"left": 2690,
 									"top": 1253,
 									"height": 18,
 									"alpha": -0.5235987755982988,
@@ -45182,7 +45182,7 @@
 								"$ref": "AAAAAAGgEaiTAVysrEU="
 							},
 							"lineStyle": 2,
-							"points": "2904:1368;2864:1368;2864:1248;2468:1248",
+							"points": "2904:1368;2864:1368;2864:1248;2665:1248",
 							"nameLabel": {
 								"$ref": "AAAAAAGgEelS2117P1U="
 							},
@@ -48335,7 +48335,10 @@
 								"$ref": "AAAAAAGgEZHRy1wMB/8="
 							},
 							"name": "id_servicio",
-							"length": 0
+							"type": "VARCHAR",
+							"length": 0,
+							"primaryKey": true,
+							"foreignKey": true
 						},
 						{
 							"_type": "ERDColumn",
@@ -48344,7 +48347,10 @@
 								"$ref": "AAAAAAGgEZHRy1wMB/8="
 							},
 							"name": "id_politica_cancelacion",
-							"length": 0
+							"type": "VARCHAR",
+							"length": 0,
+							"primaryKey": true,
+							"foreignKey": true
 						}
 					]
 				},
@@ -48474,7 +48480,10 @@
 								"$ref": "AAAAAAGgEeHD7F0lV7w="
 							},
 							"name": "id_servicio",
-							"length": 0
+							"type": "VARCHAR",
+							"length": 0,
+							"primaryKey": true,
+							"foreignKey": true
 						},
 						{
 							"_type": "ERDColumn",
@@ -48483,7 +48492,10 @@
 								"$ref": "AAAAAAGgEeHD7F0lV7w="
 							},
 							"name": "id_politica_sena",
-							"length": 0
+							"type": "VARCHAR",
+							"length": 0,
+							"primaryKey": true,
+							"foreignKey": true
 						}
 					]
 				},
